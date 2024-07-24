@@ -1,0 +1,62 @@
+#serve {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#serve1,
+#serve2,
+#serve3 {
+
+  border: 4px;
+  border-style: solid;
+  border-color: #69c9b9;
+  width: 30%;
+  padding: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(49, 50, 50);
+  height: 750px;
+  font-size: 35px;
+}
+
+#serve1 {
+  background-image: url(../img/1.png);
+  background-size: 1300px;
+}
+
+#serve2 {
+  background-image: url(../img/22.jpg);
+  background-size: 1600px;
+}
+
+#serve3 {
+  background-image: url(../img/33.jpg);
+  background-size: 1200px;
+}
+
+h2 {
+  color: rgb(63, 175, 166);
+}
+
+#button {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 330px;
+  height: 70px;
+  align-items: flex-end;
+  background-color: rgb(255, 255, 255)  ;
+  color: rgb(103, 105, 105);
+  border: 2px solid rgb(90, 155, 150);
+}
+
+#button:hover {
+  background-color: rgb(90, 155, 150);
+  color: rgb(225, 225, 225);
+}
